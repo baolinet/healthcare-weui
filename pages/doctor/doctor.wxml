@@ -1,0 +1,5 @@
+<!--pages/doctor.wxml-->
+<mp-dialog title="对话框标题" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+  <view>这里是对话框内容</view>
+</mp-dialog>
+<text>hello</text>
