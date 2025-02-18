@@ -23,15 +23,27 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "text": "会话",
+        "iconPath": "icons/system/dialog_inactive.png",
+        "selectedIconPath": "icons/system/dialog_active.png"
       },
       {
         "pagePath": "pages/doctor/doctor",
-        "text": "医生"
+        "text": "医生",
+        "iconPath": "icons/system/doctor_inactive.png",
+        "selectedIconPath": "icons/system/doctor_active.png"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "text": "病例",
+        "iconPath": "icons/system/case_inactive.png",
+        "selectedIconPath": "icons/system/case_active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icons/system/mine_inactive.png",
+        "selectedIconPath": "icons/system/mine_active.png"
       }
     ],
     "color": "#8a8a8a",
