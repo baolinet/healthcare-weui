@@ -17,7 +17,7 @@ Page({
     // 因此，如果目标页面（这里是 /pages/logs/logs）是 tabBar 页面，就需要使用 wx.switchTab 来跳转
     console.log("click")
     wx.switchTab({
-      url: '/pages/logs/logs'
+      url: '/pages/mine/mine'
     });
   },
   onChooseAvatar(e) {

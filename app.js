@@ -14,6 +14,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    env: 'development' // 可以动态修改为 'production' 或 'test'
   }
 })

@@ -1,3 +1,8 @@
+// 引入封装的api模块
+import invoke from '../../utils/request.js'
+import storage from '../../utils/storage.js';
+
+
 // pages/doctor.js
 Page({
 
@@ -20,7 +25,16 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    
+    storage.setStorageSync('username', 'user123');
+     // 获取本地存储
+     const username = storage.getStorageSync('username');
+     console.log('用户名:', username);
+ 
+     // 移除本地存储
+     storage.removeStorageSync('username');
+ 
+     // 清除所有本地存储
+     storage.clearStorageSync();
   },
 
   /**
